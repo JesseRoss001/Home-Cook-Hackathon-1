@@ -26,7 +26,7 @@ color:rgb(129, 136, 138);
     }
 
 @media (min-width:350px) {.header-text-position {position: absolute;left:17%;}
-.header-text-position1{position: absolute;left:17%;
+.header-text-position1{position: absolute;left:17%;}
 
 }
 
@@ -43,31 +43,38 @@ color:rgb(129, 136, 138);
 }
 
 @media (min-width:663px) {.header-text-position {position: absolute;
-    top:-39%;
-    left:29%;}
-    .header-text-position {position: absolute;
-        top:40%;
-        left:29%;}
+    top:40%;
+ left:29%;}
+    .header-text-position1 {position: absolute;
+        
+        left:27%;}
 }
 
 @media (min-width:864px) {.header-text-position {position: absolute;
     top:40%;
     left:32%;}
+    .header-text-position1 {position: absolute;
+        
+        left:30%;}
 }
 
-@media (min-width:864px) {.header-text-position {position: absolute;
-    top:40%;
-    left:32%;}
-}
+
 
 @media (min-width:1229px) {.header-text-position {position: absolute;
     top:40%;
     left:36%;}
+
+    .header-text-position1 {position: absolute;
+        
+        left:30%;}
 }
 
 @media (min-width:1229px) {.header-text-position {position: absolute;
     top:40%;
     left:38%;}
+    .header-text-position1 {position: absolute;
+        
+        left:37%;}
 }
 
 
@@ -78,8 +85,11 @@ color:rgb(129, 136, 138);
 
 @media (min-width:1809px) {.header-text-position {position: absolute;
     top:40%;
-    left:39%;}
+    left:36%;}
 .header-text-position {font-size:90px;}
+
+.header-text-position1 {font-size:50px;
+left:38%}
 }
 /*styling the footer */ 
 
