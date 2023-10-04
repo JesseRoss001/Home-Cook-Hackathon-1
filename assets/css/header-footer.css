@@ -1,6 +1,73 @@
 *{padding:0;
 margin:0;
 display:content-box;}
+
+/*Styling the header */
+.header-image-container {position: relative;}
+.image-header {height:50vh;width:100%;
+    object-fit: cover;
+    object-position:left;
+    opacity:0.4;
+}
+.header-text-position {position: absolute;
+top:30%;
+left:12%;
+font-size: 50px;
+color:rgb(129, 136, 138);
+
+}
+
+@media (min-width:350px) {.header-text-position {position: absolute;left:17%;}
+}
+
+@media (min-width:425px) {.header-text-position {position: absolute;left:22%;}
+}
+
+@media (min-width:531px) {.header-text-position {position: absolute;left:29%;}
+}
+
+@media (min-width:663px) {.header-text-position {position: absolute;left:32%;}
+}
+
+@media (min-width:663px) {.header-text-position {position: absolute;
+    top:40%;
+    left:29%;}
+}
+
+@media (min-width:864px) {.header-text-position {position: absolute;
+    top:40%;
+    left:32%;}
+}
+
+@media (min-width:864px) {.header-text-position {position: absolute;
+    top:40%;
+    left:32%;}
+}
+
+@media (min-width:1229px) {.header-text-position {position: absolute;
+    top:40%;
+    left:36%;}
+}
+
+@media (min-width:1229px) {.header-text-position {position: absolute;
+    top:40%;
+    left:38%;}
+}
+
+
+@media (min-width:1429px) {.header-text-position {position: absolute;
+    top:40%;
+    left:38%;}
+}
+
+@media (min-width:1809px) {.header-text-position {position: absolute;
+    top:40%;
+    left:39%;}
+.header-text-position {font-size:90px;}
+}
+/*styling the footer */ 
+
+
 #navbarNav {width:100%;}
 @media (min-width:425px){
     #foot-logo-spacing-size {font-size: 22px;
