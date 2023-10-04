@@ -38,12 +38,9 @@ color:rgb(129, 136, 138);
 .header-text-position1{position: absolute;left:29%;}
 }
 
-@media (min-width:663px) {.header-text-position {position: absolute;left:32%;}
-.header-text-position1{position: absolute;left:32%;}
-}
 
 @media (min-width:663px) {.header-text-position {position: absolute;
-    top:40%;
+   
  left:29%;}
     .header-text-position1 {position: absolute;
         
@@ -57,6 +54,16 @@ color:rgb(129, 136, 138);
         
         left:30%;}
 }
+
+@media (min-width:1024px) {.header-text-position {position: absolute;
+    top:40%;
+    left:34%;}
+    .header-text-position1 {position: absolute;
+        
+        left:33%;}
+}
+
+
 
 
 
@@ -81,6 +88,14 @@ color:rgb(129, 136, 138);
 @media (min-width:1429px) {.header-text-position {position: absolute;
     top:40%;
     left:38%;}
+}
+
+@media (min-width:1500px) {.header-text-position {position: absolute;
+    top:40%;
+    left:39%;}
+
+    .header-text-position1 {font-size:50px;
+        left:34%}
 }
 
 @media (min-width:1809px) {.header-text-position {position: absolute;
