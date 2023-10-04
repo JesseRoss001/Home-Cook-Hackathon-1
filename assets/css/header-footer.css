@@ -1,6 +1,120 @@
 *{padding:0;
 margin:0;
 display:content-box;}
+
+/*Styling the header */
+.navbar-toggler-padding-left{padding-left: 0px;}
+.nav-header-small-devices {font-size: 25px; text-align: left;
+    position:absolute;
+left:-10px;
+font-weight: 200;
+}
+.header-image-container {position: relative;}
+.image-header {height:50vh;width:100%;
+    object-fit: cover;
+    object-position:left;
+    opacity:0.4;
+}
+.header-text-position {position: absolute;
+top:10%;
+left:12%;
+font-size: 50px;
+color:rgb(129, 136, 138);
+
+}
+
+.header-text-position1 {position: absolute;
+    top:70%;
+    left:12%;
+    font-size: 34px;
+    color:rgb(129, 136, 138);
+    
+    }
+
+@media (min-width:350px) {.header-text-position {position: absolute;left:17%;}
+.header-text-position1{position: absolute;left:17%;}
+
+}
+
+@media (min-width:425px) {.header-text-position {position: absolute;left:22%;}
+.header-text-position1{position: absolute;left:22%;}
+}
+
+@media (min-width:531px) {.header-text-position {position: absolute;left:29%;}
+.header-text-position1{position: absolute;left:29%;}
+}
+
+
+@media (min-width:663px) {.header-text-position {position: absolute;
+   
+ left:29%;}
+    .header-text-position1 {position: absolute;
+        
+        left:27%;}
+}
+
+@media (min-width:864px) {.header-text-position {position: absolute;
+    top:40%;
+    left:32%;}
+    .header-text-position1 {position: absolute;
+        
+        left:30%;}
+}
+
+@media (min-width:1024px) {.header-text-position {position: absolute;
+    top:40%;
+    left:34%;}
+    .header-text-position1 {position: absolute;
+        
+        left:33%;}
+}
+
+
+
+
+
+@media (min-width:1229px) {.header-text-position {position: absolute;
+    top:40%;
+    left:36%;}
+
+    .header-text-position1 {position: absolute;
+        
+        left:30%;}
+}
+
+@media (min-width:1229px) {.header-text-position {position: absolute;
+    top:40%;
+    left:38%;}
+    .header-text-position1 {position: absolute;
+        
+        left:37%;}
+}
+
+
+@media (min-width:1429px) {.header-text-position {position: absolute;
+    top:40%;
+    left:38%;}
+}
+
+@media (min-width:1500px) {.header-text-position {position: absolute;
+    top:40%;
+    left:39%;}
+
+    .header-text-position1 {font-size:50px;
+        left:34%}
+}
+
+@media (min-width:1809px) {.header-text-position {position: absolute;
+    top:40%;
+    left:36%;}
+.header-text-position {font-size:90px;}
+
+.header-text-position1 {font-size:50px;
+left:38%}
+}
+/*styling the footer */ 
+
+
 #navbarNav {width:100%;}
 @media (min-width:425px){
     #foot-logo-spacing-size {font-size: 22px;
