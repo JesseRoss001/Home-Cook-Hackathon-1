@@ -1,0 +1,23 @@
+*{padding:0;
+margin:0;
+display:content-box;}
+#navbarNav {width:100%;}
+@media (min-width:425px){
+    #foot-logo-spacing-size {font-size: 22px;
+    }
+    .cash-money-text {font-size: 22px;}}
+@media (min-width:580px){ #foot-logo-spacing-size {font-size: 26px;
+}
+.cash-money-text {font-size: 25px;}}
+
+@media (min-width:880px){ #foot-logo-spacing-size {font-size: 28px;
+}
+.cash-money-text {font-size: 28px;}}
+
+
+
+#footer-logo{
+    width:200px;
+    position:relative;
+    top:-30px;
+    overflow: hidden;}
