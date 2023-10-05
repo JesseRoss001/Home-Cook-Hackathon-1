@@ -1,1 +1,16 @@
+/* stacey css */
+.mask {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
 
+.bg-image {
+    background-image: url('../images/foodplatter.jpg'); /* Provide the correct file path */
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+.quote {
+    background-color: #c15f27b8;
+    margin: 15px;
+  }
