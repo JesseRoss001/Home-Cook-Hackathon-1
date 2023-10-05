@@ -1,2 +1,6 @@
-#card-top-carbonara-image{border-radius: 20%;
-height:20px;}
+
+
+
+.rating-improvement{color:rgb(47, 185, 47)}
+.rating-neutral {color: gray;}
+.rating-decline {color:red}
