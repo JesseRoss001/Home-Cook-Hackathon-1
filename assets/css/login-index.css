@@ -1,6 +1,19 @@
 
-
+/* Coloring the cards */
+.dish-of-the-year-card-color {background:linear-gradient( #ffff 94%, #ffd700 );}
+.dish-of-the-month-card-color {background:linear-gradient( #ffff 94%, #C0C0C0);}
+.dish-of-the-day-card-color {background:linear-gradient( #ffff 94%, #CD7F32);}
+* {margin:0;
+padding:0;}
 
 .rating-improvement{color:rgb(47, 185, 47)}
 .rating-neutral {color: gray;}
 .rating-decline {color:red}
+
+div>div>img{height:350px;
+margin-top: 35px;}
+
+
+@media (max-width:1024px) {
+    .card-img-left {}
+}
