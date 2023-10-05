@@ -1,129 +1,652 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><i class="fa-solid fa-utensils"></i>Dish Discovery </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header-footer.css">
 </head>
-<body>
-  <header >
-        
-    <div class="container">
-        <div class="row g-0">
-            <div class="col-4 col-md-12 navbar-toggler-padding-left ">
-        <nav class="navbar navbar-expand-md bg-transparent navbar-light w-60">
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><p><i class="fa fa-cutlery" aria-hidden="true"></i></p>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto"> <!-- Added mx-auto class -->
-                    <li class="nav-item active  pl-1">
-                        <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item pl-1">
-                        <a class="nav-link" href="about-us.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About Us</a>
-                    </li>
-                    <li class="nav-item pl-1">
-                        <a class="nav-link" href="contact-us.html"><i class="fa fa-address-book" aria-hidden="true"></i> Contact Us</a>
-                    </li>
-                    <li class="nav-item pl-1">
-                        <a class="nav-link" href="login-index.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Login </a>
-                    </li>
-                    <li class="nav-item pl-1">
-                        <a class="nav-link" href="sign-up.html"> <i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-        <div class=" col-8 d-inline-block d-md-none  mt-4" ><h2 class="nav-header-small-devices"> For Home Cooks </h2> </div>
-    </div>
-</div>
-
-<div class="header-image-container"> 
-<img src="assets/images/pexels-ella-olsson-1640774.jpg" class="image-header" alt="">
-    <!-- Navbar  Hero Image Logo Login -->
-    <h1 class="h1 header-text-position text-center"> Dish <br class="d-md-none"> Discovery </h1>
-    <h2 class="h2 header-text-position1 text-center"> Home Cooking <br class="d-md-none"> Recipes</h2>
-</div>
-</header>
-
 
 <body>
-    <div class="container-fluid">
-        <div class="jumbotron text-center pt-4 pb-5 ">
-            <h2 class="display-4">Spaghetti Carbonara Recipe</h2>
-            <hr>
-            <a href="login-index.html#spaghetti-carbonara" class="btn btn-primary">Return </a>
-            <h3  class="lead">Preperation Time : <strong>15 minutes  </strong>  Cooking Time: <strong>15 minutes </strong> </h3>
-        </div>
-        <div class="row g-0">
-            <div class=" display-inline-block col-12 col-md-5 br-1 border-right">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <div class="card">
-                            <div class="card-body">
-                <h2>Ingredients:</h2>
-                <ul>
-                    <li>200g spaghetti</li>
-                    <li>100g pancetta or guanciale, diced</li>
-                    <li>2 large eggs</li>
-                    <li>50g Pecorino Romano cheese, grated</li>
-                    <li>50g Parmesan cheese, grated</li>
-                    <li>Freshly ground black pepper</li>
-                    <li>Salt</li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h2>Instructions:</h2>
-                <ol>
-                    <li>Boil the spaghetti in salted water until al dente. Drain and set aside.</li>
-                    <li>In a pan, cook the pancetta or guanciale until it becomes crispy. Remove from heat.</li>
-                    <li>In a bowl, whisk together the eggs, grated Pecorino Romano cheese, and grated Parmesan cheese.</li>
-                    <li>Add the cooked spaghetti to the pan with the crispy pancetta, then pour the egg and cheese mixture over it.</li>
-                    <li>Toss everything together until the pasta is coated in the creamy sauce. Add freshly ground black pepper to taste.</li>
-                    <li>Serve immediately, garnished with extra cheese and black pepper.</li>
-                </ol>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-     
+    <header>
 
-    <div class="display-inline-block col-12 col-md-6 jumbotron text-center">
-        <div class="card border-0">
-            <div class="card-body">
-                <div class="card">
-                    <div class="card-body">
-        <h2>Additional Info</h2>
-        <p>Origin: Italy</p>
-        <p>Difficulty: 3 (Moderate)</p>
-        <p>Rating: 4.9</p>
-        <button class="btn btn-primary">Read Reviews</button>
-                    </div>
-                    </div>
- 
-            <div class="card">
-        <div class="card-body">
-            <h2>Reviews</h2>
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-4 col-md-12 navbar-toggler-padding-left ">
+                    <nav class="navbar navbar-expand-md bg-transparent navbar-light w-60">
 
-                    <h5 class="card-title">Delicious Carbonara!</h5>
-                    <p class="card-text">"I tried this recipe, and it was fantastic. The creamy sauce and crispy pancetta made it truly authentic. I'd rate it 5/5 for taste!"</p>
-                    <p class="card-text"><small class="text-muted">Rating: 4.9</small></p>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <p><i class="fa fa-cutlery" aria-hidden="true"></i></p>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto"> <!-- Added mx-auto class -->
+                                <li class="nav-item active  pl-1">
+                                    <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
+                                        Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item pl-1">
+                                    <a class="nav-link" href="about-us.html"><i class="fa fa-info-circle"
+                                            aria-hidden="true"></i> About Us</a>
+                                </li>
+                                <li class="nav-item pl-1">
+                                    <a class="nav-link" href="contact-us.html"><i class="fa fa-address-book"
+                                            aria-hidden="true"></i> Contact Us</a>
+                                </li>
+                                <li class="nav-item pl-1">
+                                    <a class="nav-link" href="login-index.html"><i class="fa fa-sign-in"
+                                            aria-hidden="true"></i> Login </a>
+                                </li>
+                                <li class="nav-item pl-1">
+                                    <a class="nav-link" href="sign-up.html"> <i class="fa fa-user-plus"
+                                            aria-hidden="true"></i> Sign Up </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class=" col-8 d-inline-block d-md-none  mt-4">
+                    <h2 class="nav-header-small-devices"> For Home Cooks </h2>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-   
-</body>
+        <div class="header-image-container">
+            <img src="assets/images/pexels-ella-olsson-1640774.jpg" class="image-header" alt="">
+            <!-- Navbar  Hero Image Logo Login -->
+            <h1 class="h1 header-text-position text-center"> Dish <br class="d-md-none"> Discovery </h1>
+            <h2 class="h2 header-text-position1 text-center"> Home Cooking <br class="d-md-none"> Recipes</h2>
+        </div>
+    </header>
+
+
+    <body>
+
+        <div class="container-fluid">
+            <div class="row g-2">
+                <div class=" offset-1 col-10  col-md-6 display-inline-block ">
+                    <div class=" jumbotron text-center pt-4 pb-5 ">
+                        <h2 class="display-4">Spaghetti Carbonara Recipe</h2>
+                        <hr>
+                        <a href="login-index.html#spaghetti-carbonara" class="btn btn-primary">Return </a>
+                        <h3 class="lead">Preperation Time : <strong>15 minutes </strong> Cooking Time: <strong>15
+                                minutes
+                            </strong> </h3>
+                    </div>
+                </div>
+
+                <div class=" offset-1 col-10 col-md-4">
+                    <img class="image-fluid  rounded-circle p-4 " height="300px"
+                        src="assets/images/spaghetti-carbonara-recipe-6.jpg" alt="">
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class=" display-inline-block col-12 col-md-5 br-1 border-right">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Ingredients:</h2>
+                                    <ul>
+                                        <li>200g spaghetti</li>
+                                        <li>100g pancetta or guanciale, diced</li>
+                                        <li>2 large eggs</li>
+                                        <li>50g Pecorino Romano cheese, grated</li>
+                                        <li>50g Parmesan cheese, grated</li>
+                                        <li>Freshly ground black pepper</li>
+                                        <li>Salt</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Instructions:</h2>
+                                    <ol>
+                                        <li>Boil the spaghetti in salted water until al dente. Drain and set aside.</li>
+                                        <li>In a pan, cook the pancetta or guanciale until it becomes crispy. Remove
+                                            from heat.</li>
+                                        <li>In a bowl, whisk together the eggs, grated Pecorino Romano cheese, and
+                                            grated Parmesan cheese.</li>
+                                        <li>Add the cooked spaghetti to the pan with the crispy pancetta, then pour the
+                                            egg and cheese mixture over it.</li>
+                                        <li>Toss everything together until the pasta is coated in the creamy sauce. Add
+                                            freshly ground black pepper to taste.</li>
+                                        <li>Serve immediately, garnished with extra cheese and black pepper.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="display-inline-block col-12 col-md-6 jumbotron text-center">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Additional Info</h2>
+                                    <p>Origin: Italy</p>
+                                    <p>Difficulty: 3 (Moderate)</p>
+                                    <p>Rating: 4.9</p>
+                                    <button class="btn btn-primary">Read Reviews</button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Reviews</h2>
+
+                                    <h5 class="card-title">Delicious Carbonara!</h5>
+                                    <p class="card-text">"I tried this recipe, and it was fantastic. The creamy sauce
+                                        and crispy pancetta made it truly authentic. I'd rate it 5/5 for taste!"</p>
+                                    <p class="card-text"><small class="text-muted">Rating: 4.9</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="card-body">
+                    <div class="card">
+                        <p class="lead">Cook Along with Jamie Oliver </p>
+                        <a href="https://www.youtube.com/watch?v=3AAdKl1UYZs&ab_channel=JamieOliver" class="btn btn-danger"> <i class="fa-brands fa-youtube"></i> </a>
+                        </div>
+                        </div>  
+                    </div>
+<hr>
+
+                <div class="container-fluid">
+
+                    <div class="row g-2">
+                        <div class=" offset-1 col-10  col-md-6 display-inline-block ">
+                            <div class=" jumbotron text-center pt-4 pb-5 ">
+                                <h2 class="display-4">Spaghetti Bolognese Recipe</h2>
+
+                                <a href="login-index.html#spaghetti-bolognese"  target="_blank"  class="btn btn-primary">Return</a>
+                                <h3 class="lead">Preparation Time: <strong>20 minutes</strong> | Cooking Time:
+                                    <strong>30
+                                        minutes</strong>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class=" offset-1 col-10 col-md-4 display-inline-block">
+                            <img class="image-fluid rounded-circle p-4 "  height="300px"src="assets/images/spaghetti-bolognese.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class=" display-inline-block col-12 col-md-5 br-1 border-right ">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h2>Ingredients:</h2>
+                                            <ul>
+                                                <li>250g spaghetti</li>
+                                                <li>300g ground beef</li>
+                                                <li>1 onion, diced</li>
+                                                <li>2 cloves garlic, minced</li>
+                                                <li>400g canned crushed tomatoes</li>
+                                                <li>1 teaspoon dried oregano</li>
+                                                <li>Salt and pepper to taste</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h2>Instructions:</h2>
+                                            <ol>
+                                                <li>Cook the spaghetti according to package instructions. Drain and set
+                                                    aside.</li>
+                                                <li>In a pan, brown the ground beef over medium heat. Add diced onions
+                                                    and minced garlic; cook until onions are translucent.</li>
+                                                <li>Add crushed tomatoes, dried oregano, salt, and pepper to the beef
+                                                    mixture. Simmer for 15-20 minutes.</li>
+                                                <li>Serve the Bolognese sauce over cooked spaghetti.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="display-inline-block col-12 col-md-6 jumbotron text-center  ">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h2>Additional Info</h2>
+                                            <p>Origin: Italy</p>
+                                            <p>Difficulty: 2 (Easy)</p>
+                                            <p>Rating: 4.8</p>
+                                            <button class="btn btn-primary">Read Reviews</button>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h2>Reviews</h2>
+                                            <h5 class="card-title">Simple and Delicious!</h5>
+                                            <p class="card-text">"This Spaghetti Bolognese recipe is incredibly easy to
+                                                make, and it's so flavorful. Perfect for a quick and tasty dinner!"</p>
+                                            <p class="card-text"><small class="text-muted">Rating: 4.8</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="card">
+                                    <p class="lead">Cook Along with Jamie Oliver </p>
+                                    <a href="https://www.youtube.com/watch?v=_qy6HNqxhKU&ab_channel=JamieOliver" class="btn btn-danger" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                    </div>
+                                    </div>  
+                                </div>
+                        </div>
+
+
+                        <div class="container-fluid">
+                            <div class="row g-2">
+                                <div class="offset-1 col-10 col-md-6 display-inline-block">
+                                    <div class="jumbotron text-center pt-4 pb-5">
+                                        <h2 class="display-4">Vegetarian Sushi Recipe</h2>
+                                        <a href="login-index.html#vegetarian-sushi" target="_blank" class="btn btn-primary">Return</a>
+                                        <h3 class="lead">Preparation Time: <strong>15 minutes</strong> | Cooking Time: <strong>10 minutes</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="offset-1 col-10 col-md-4 display-inline-block">
+                                    <img class="image-fluid rounded-circle p-4" height="300px" src="assets/images/vegetarian-sushi.jpg" alt="Vegetarian Sushi Image">
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="display-inline-block col-12 col-md-5 br-1 border-right">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Ingredients:</h2>
+                                                    <ul>
+                                                        <li>Sushi rice</li>
+                                                        <li>Nori seaweed sheets</li>
+                                                        <li>Assorted vegetables (e.g., cucumber, avocado, carrot)</li>
+                                                        <li>Soy sauce</li>
+                                                        <li>Wasabi and pickled ginger (optional)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Instructions:</h2>
+                                                    <ol>
+                                                        <li>Cook sushi rice according to package instructions and let it cool.</li>
+                                                        <li>Place a bamboo sushi rolling mat on a clean surface.</li>
+                                                        <li>Place a sheet of nori on the bamboo mat and wet your fingers to spread a thin layer of sushi rice over the nori.</li>
+                                                        <li>Add your choice of thinly sliced vegetables on top of the rice.</li>
+                                                        <li>Roll the nori and rice tightly using the bamboo mat.</li>
+                                                        <li>Slice the sushi roll into bite-sized pieces.</li>
+                                                        <li>Serve with soy sauce, wasabi, and pickled ginger if desired.</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="display-inline-block col-12 col-md-6 jumbotron text-center">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Additional Info</h2>
+                                                    <p>Origin: Japan</p>
+                                                    <p>Difficulty: 3 (Moderate)</p>
+                                                    <p>Rating: 4.7</p>
+                                                    <button class="btn btn-primary">Read Reviews</button>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Reviews</h2>
+                                                    <h5 class="card-title">Delightful Vegetarian Sushi!</h5>
+                                                    <p class="card-text">"I love this Vegetarian Sushi recipe. It's a healthy and delicious option for sushi lovers, and the fresh veggies add a delightful crunch!"</p>
+                                                    <p class="card-text"><small class="text-muted">Rating: 4.7</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card">
+                                            <p class="lead">Watch a Sushi Tutorial</p>
+                                            <a href="https://www.youtube.com/watch?v=2KDBPL7LGd8" class="btn btn-danger" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="container-fluid">
+                            <div class="row g-2">
+                                <div class="offset-1 col-10 col-md-6 display-inline-block">
+                                    <div class="jumbotron text-center pt-4 pb-5">
+                                        <h2 class="display-4">Speedy Chicken Stir-Fry Recipe</h2>
+                                        <a href="login-index.html#speedy-chicken-stir-fry" target="_blank" class="btn btn-primary">Return</a>
+                                        <h3 class="lead">Preparation Time: <strong>10 minutes</strong> | Cooking Time: <strong>10 minutes</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="offset-1 col-10 col-md-4 display-inline-block">
+                                    <img class="image-fluid rounded-circle p-4" height="300px" src="assets/images/quick-meal.jpg" alt="Speedy Chicken Stir-Fry Image">
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="display-inline-block col-12 col-md-5 br-1 border-right">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Ingredients:</h2>
+                                                    <ul>
+                                                        <li>Chicken breast</li>
+                                                        <li>Broccoli florets</li>
+                                                        <li>Carrots, sliced</li>
+                                                        <li>Garlic, minced</li>
+                                                        <li>Soy sauce</li>
+                                                        <li>Sesame oil</li>
+                                                        <li>Red pepper flakes (optional)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Instructions:</h2>
+                                                    <ol>
+                                                        <li>In a pan, heat sesame oil over medium-high heat.</li>
+                                                        <li>Add minced garlic and sliced chicken breast. Cook until the chicken is browned.</li>
+                                                        <li>Add broccoli florets and sliced carrots. Cook until vegetables are tender.</li>
+                                                        <li>Drizzle with soy sauce and red pepper flakes (optional). Stir well.</li>
+                                                        <li>Serve hot and enjoy your Speedy Chicken Stir-Fry!</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="display-inline-block col-12 col-md-6 jumbotron text-center">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Additional Info</h2>
+                                                    <p>Origin: Homemade</p>
+                                                    <p>Difficulty: 2 (Easy)</p>
+                                                    <p>Rating: 4.6</p>
+                                                    <button class="btn btn-primary">Read Reviews</button>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Reviews</h2>
+                                                    <h5 class="card-title">Quick & Delicious!</h5>
+                                                    <p class="card-text">"This Speedy Chicken Stir-Fry recipe saved my dinner time. It's simple, fast, and tastes great!"</p>
+                                                    <p class="card-text"><small class="text-muted">Rating: 4.6</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card">
+                                            <p class="lead">Watch a Quick Recipe Tutorial</p>
+                                            <a href="https://www.youtube.com/watch?v=5dybdeTylz0" class="btn btn-danger" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="container-fluid">
+                            <div class="row g-2">
+                                <div class="offset-1 col-10 col-md-6 display-inline-block">
+                                    <div class="jumbotron text-center pt-4 pb-5">
+                                        <h2 class="display-4">Crispy Fried Chicken Recipe</h2>
+                                        <a href="login-index.html#crispy-fried-chicken" target="_blank" class="btn btn-primary">Return</a>
+                                        <h3 class="lead">Preparation Time: <strong>20 minutes</strong> | Cooking Time: <strong>30 minutes</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="offset-1 col-10 col-md-4 display-inline-block">
+                                    <img class="image-fluid rounded-circle p-4" height="300px" src="assets/images/crispy-fried-chicken.jpg" alt="Crispy Fried Chicken Image">
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="display-inline-block col-12 col-md-5 br-1 border-right">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Ingredients:</h2>
+                                                    <ul>
+                                                        <li>4 chicken pieces (legs and thighs)</li>
+                                                        <li>2 cups buttermilk</li>
+                                                        <li>2 cups all-purpose flour</li>
+                                                        <li>1 tablespoon paprika</li>
+                                                        <li>1 tablespoon garlic powder</li>
+                                                        <li>1 tablespoon onion powder</li>
+                                                        <li>Salt and pepper to taste</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Instructions:</h2>
+                                                    <ol>
+                                                        <li>Marinate chicken pieces in buttermilk for at least 2 hours or overnight.</li>
+                                                        <li>In a large, shallow dish, combine flour, paprika, garlic powder, onion powder, salt, and pepper.</li>
+                                                        <li>Remove chicken from buttermilk, allowing excess to drip off, and coat each piece in the flour mixture.</li>
+                                                        <li>Heat oil in a deep frying pan or skillet to 350°F (175°C).</li>
+                                                        <li>Fry chicken pieces until golden brown and cooked through, about 15-20 minutes per side.</li>
+                                                        <li>Drain on paper towels, and serve your Crispy Fried Chicken hot and delicious!</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="display-inline-block col-12 col-md-6 jumbotron text-center">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Additional Info</h2>
+                                                    <p>Origin: Southern United States</p>
+                                                    <p>Difficulty: 3 (Moderate)</p>
+                                                    <p>Rating: 4.9</p>
+                                                    <button class="btn btn-primary">Read Reviews</button>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Reviews</h2>
+                                                    <h5 class="card-title">Simply Irresistible!</h5>
+                                                    <p class="card-text">"This Crispy Fried Chicken is a family favorite! The crispy skin and juicy meat make it simply irresistible. I'd rate it 5/5!"</p>
+                                                    <p class="card-text"><small class="text-muted">Rating: 4.9</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card">
+                                            <p class="lead">Watch a Fried Chicken Tutorial</p>
+                                            <a href="https://www.youtube.com/watch?v=hOTihLk4pfg&ab_channel=Tasty" class="btn btn-danger" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="row g-2">
+                                <div class="offset-1 col-10 col-md-6 display-inline-block">
+                                    <div class="jumbotron text-center pt-4 pb-5">
+                                        <h2 class="display-4">Homemade Margherita Pizza Recipe</h2>
+                                        <a href="login-index.html#homemade-margherita-pizza" target="_blank" class="btn btn-primary">Return</a>
+                                        <h3 class="lead">Preparation Time: <strong>15 minutes</strong> | Cooking Time: <strong>12 minutes</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="offset-1 col-10 col-md-4 display-inline-block">
+                                    <img class="image-fluid rounded-circle p-4" height="300px" src="assets/images/homemade-margerita-pizza.jpeg" alt="Homemade Margherita Pizza Image">
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="display-inline-block col-12 col-md-5 br-1 border-right">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Ingredients:</h2>
+                                                    <ul>
+                                                        <li>Pizza dough</li>
+                                                        <li>Tomato sauce</li>
+                                                        <li>Fresh mozzarella cheese</li>
+                                                        <li>Fresh basil leaves</li>
+                                                        <li>Olive oil</li>
+                                                        <li>Salt and pepper to taste</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Instructions:</h2>
+                                                    <ol>
+                                                        <li>Preheat your oven to the highest temperature (usually around 500°F or 260°C).</li>
+                                                        <li>Roll out the pizza dough on a floured surface to your desired thickness.</li>
+                                                        <li>Spread a layer of tomato sauce over the dough.</li>
+                                                        <li>Place slices of fresh mozzarella cheese evenly on top of the sauce.</li>
+                                                        <li>Add fresh basil leaves.</li>
+                                                        <li>Drizzle with olive oil and season with salt and pepper.</li>
+                                                        <li>Transfer the pizza to a hot pizza stone or baking sheet and bake until the crust is golden and the cheese is bubbly and slightly browned, about 10-12 minutes.</li>
+                                                        <li>Remove from the oven, slice, and enjoy your Homemade Margherita Pizza!</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="display-inline-block col-12 col-md-6 jumbotron text-center">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Additional Info</h2>
+                                                    <p>Origin: Italy</p>
+                                                    <p>Difficulty: 2 (Easy)</p>
+                                                    <p>Rating: 4.5</p>
+                                                    <button class="btn btn-primary">Read Reviews</button>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Reviews</h2>
+                                                    <h5 class="card-title">Delicious and Simple!</h5>
+                                                    <p class="card-text">"I made this Homemade Margherita Pizza, and it was a hit with my family. Simple to make and incredibly delicious!"</p>
+                                                    <p class="card-text"><small class="text-muted">Rating: 4.5</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card">
+                                            <p class="lead">Watch a Pizza Making Tutorial</p>
+                                            <a href="https://www.youtube.com/watch?v=az5D8C6K5Dk&ab_channel=Tasty" class="btn btn-danger" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="row g-2">
+                                <div class="offset-1 col-10 col-md-6 display-inline-block">
+                                    <div class="jumbotron text-center pt-4 pb-5">
+                                        <h2 class="display-4">Classic Beef Stroganoff Recipe</h2>
+                                        <a href="login-index.html#classic-beef-stroganoff" target="_blank" class="btn btn-primary">Return</a>
+                                        <h3 class="lead">Preparation Time: <strong>20 minutes</strong> | Cooking Time: <strong>30 minutes</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="offset-1 col-10 col-md-4 display-inline-block">
+                                    <img class="image-fluid rounded-circle p-4" height="300px" src="assets/images/beef-stroganoff.jpg" alt="Classic Beef Stroganoff Image">
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="display-inline-block col-12 col-md-5 br-1 border-right">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Ingredients:</h2>
+                                                    <ul>
+                                                        <li>1 lb beef sirloin, thinly sliced</li>
+                                                        <li>8 oz mushrooms, sliced</li>
+                                                        <li>1 onion, finely chopped</li>
+                                                        <li>2 cloves garlic, minced</li>
+                                                        <li>1 cup beef broth</li>
+                                                        <li>1 cup sour cream</li>
+                                                        <li>2 tablespoons all-purpose flour</li>
+                                                        <li>2 tablespoons butter</li>
+                                                        <li>2 tablespoons vegetable oil</li>
+                                                        <li>Salt and pepper to taste</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Instructions:</h2>
+                                                    <ol>
+                                                        <li>In a large skillet, heat vegetable oil and butter over medium-high heat.</li>
+                                                        <li>Add sliced beef and cook until browned. Remove from skillet and set aside.</li>
+                                                        <li>In the same skillet, add chopped onions and garlic. Sauté until onions are translucent.</li>
+                                                        <li>Add mushrooms and cook until they release their liquid and become tender.</li>
+                                                        <li>Sprinkle flour over the mushroom mixture and stir well.</li>
+                                                        <li>Slowly add beef broth while stirring constantly until the mixture thickens.</li>
+                                                        <li>Reduce heat to low and return the cooked beef to the skillet.</li>
+                                                        <li>Stir in sour cream and cook until heated through. Season with salt and pepper to taste.</li>
+                                                        <li>Serve your Classic Beef Stroganoff over cooked noodles or rice.</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="display-inline-block col-12 col-md-6 jumbotron text-center">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Additional Info</h2>
+                                                    <p>Origin: Russia</p>
+                                                    <p>Difficulty: 3 (Moderate)</p>
+                                                    <p>Rating: 4.6</p>
+                                                    <button class="btn btn-primary">Read Reviews</button>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h2>Reviews</h2>
+                                                    <h5 class="card-title">Delicious Comfort Food!</h5>
+                                                    <p class="card-text">"This Classic Beef Stroganoff is the ultimate comfort food. Creamy and savory, it's always a hit with my family!"</p>
+                                                    <p class="card-text"><small class="text-muted">Rating: 4.6</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card">
+                                            <p class="lead">Watch a Stroganoff Tutorial with the elite chef Marco </p>
+                                            <a href="https://www.youtube.com/watch?v=nEcqUdDmsRU&ab_channel=MarcoRecipes" class="btn btn-danger" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    </body>
+    <script src="https://kit.fontawesome.com/11665d5c0d.js" crossorigin="anonymous"></script>
 </html>
