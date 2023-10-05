@@ -1,6 +1,12 @@
 /*-----------------------------------------------------Carousel */
 
-/* .carousel,
-.slide {
-    height: 30vh;
-} */
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 10rem;
+    color: #fff;
+    text-align: center;
+}

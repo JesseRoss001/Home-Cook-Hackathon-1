@@ -1,0 +1,46 @@
+/*-------------------------------------------------- PB - Styling Carousel Captions */
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 10rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption h2 {
+    font-size: xxx-large;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-caption h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+ /*---------------------------------------------- PB Carousel Button Styling*/
+  .heading {
+    color: white;
+    font-size: 48px;
+    text-shadow: 0 0 2px black;
+    margin-bottom: 8px;
+  }
+  
+  .sub-heading {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 30px;
+  }
+  
+  .button-container {
+    margin-top: 32px;
+  }
+  
+  .btn {     
+    font-size: 24px;    
+  }
