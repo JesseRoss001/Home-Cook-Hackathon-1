@@ -44,3 +44,16 @@
   .btn {     
     font-size: 24px;    
   }
+
+  /*Style for difficulty buttons */ 
+  .button-easy {
+    background-color:green;
+  }
+
+  .button-moderate {
+    background-color:orange;
+  }
+
+  .button-expert {
+    background-color:red; 
+  }

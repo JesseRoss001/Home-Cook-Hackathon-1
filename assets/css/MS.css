@@ -12,4 +12,9 @@
     margin-bottom: 5px;
 }
 
-/*other*/ 
+/*other*/
+#freeform {
+    width:100%; 
+    height:50%; 
+} 
+
