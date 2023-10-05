@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><i class="fa-solid fa-utensils"></i>Dish Discovery </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/header-footer.css">
+    <link rel="stylesheet" href="assets/css/login-index.css">
+</head>
+<body>
+    <header >
+        
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-4 col-md-12 navbar-toggler-padding-left ">
+            <nav class="navbar navbar-expand-md bg-transparent navbar-light w-60">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><p><i class="fa fa-cutlery" aria-hidden="true"></i></p>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto"> <!-- Added mx-auto class -->
+                        <li class="nav-item  pl-1 active">
+                            <a class="nav-link" href="login-index.html"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" href="offers.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Offers </a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" href="difficulty.html"><i class="fa-regular fa-hand-spock"></i> Ranked: Difficulty </a>
+                        </li>
+                        <li class="nav-item pl-1 active">
+                            <a class="nav-link" href="time.html"><i class="fa-regular fa-clock"></i>Ranked: Total Time </a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" href="index.html"> <i class="fa-solid fa-right-from-bracket"></i> Log Out </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+            <div class=" col-8 d-inline-block d-md-none  mt-4" ><h2 class="nav-header-small-devices"> For Home Cooks </h2> </div>
+        </div>
+    </div>
+    
+    <div class="header-image-container"> 
+    <img src="assets/images/pexels-ella-olsson-1640774.jpg" class="image-header" alt="">
+        <!-- Navbar  Hero Image Logo Login -->
+        <h1 class="h1 header-text-position text-center"> Dish <br class="d-md-none"> Discovery </h1>
+        <h2 class="h2 header-text-position1 text-center"> Home Cooking <br class="d-md-none"> Recipes</h2>
+    </div>
+    </header>
+<main>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div style="height:50px"></div>
+      <h3 class="h3 text-center"> Ranked According to recipe Difficulty </h3>
+      <div style="height:50px"></div>
+
+      <div class="row g-0">
+      <div class="card col-12 col-md-6 col-lg-4 " id="dish-worst-card-color">
+        <img class="card-img-top" src="assets/images/chicken-vindaloo.jpg" alt="Card image cap" id="card-top-vindaloo-image" name="chicken-vindaloo">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-virus"></i><strong>4.7</strong> Chicken Vindaloo</h5>
+            <p class="card-text text-center">"Get ready for a spicy culinary adventure with our Chicken Vindaloo recipe. This fiery Indian dish is known for its bold flavors and intense heat, perfect for spice lovers!"</p>
+            <a href="recipe-file.html#chicken-vindaloo1" class="btn btn-primary" name="chicken-vindaloo">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/tiramisu.jpg" alt="Card image cap" id="card-top-tiramisu-image" name="tiramisu">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-virus"></i><strong>4.6</strong> Tiramisu</h5>
+            <p class="card-text text-center">"Indulge in the rich and creamy delight of our Tiramisu, an iconic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese. It's a perfect sweet treat!"</p>
+            <a href="recipe-file.html#tiramisu1" class="btn btn-primary" name="tiramisu">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top card-img-left" src="assets/images/bibimbap.jpg" alt="Card image cap" id="card-top-bibimbap-image" name="bibimbap">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-virus"></i><strong>4.6</strong>  Bibimbap</h5>
+            <p class="card-text text-center">"Savor the flavors of our Bibimbap, a traditional Korean dish that combines a colorful assortment of vegetables, marinated beef, and a spicy gochujang sauce served over a bowl of steamed rice. It's a delightful and satisfying meal!"</p>
+            <a href="recipe-file.html#bibimbap1" class="btn btn-primary" name="bibimbap">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top " src="assets/images/mushroom-risotto.jpg" alt="Card image cap" id="card-top-risotto-image" name="mushroom-risotto">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-virus"></i><strong>4.5</strong> Mushroom Risotto</h5>
+            <p class="card-text text-center">"Indulge in the creamy and earthy flavors of our Mushroom Risotto, an Italian classic that combines Arborio rice with a medley of sautéed mushrooms, garlic, and Parmesan cheese. Pure comfort in a bowl!"</p>
+            <a href="recipe-file.html#mushroom-risotto1" class="btn btn-primary" name="mushroom-risotto">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top card-img-left" src="assets/images/beef-stroganoff.jpg" alt="Card image cap" id="card-top-stroganoff-image" name="classic-beef-stroganoff">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-virus"></i><strong>4.5</strong> Classic Beef Stroganoff</h5>
+            <p class="card-text text-center">"Enjoy the rich and creamy goodness of our Classic Beef Stroganoff, a timeless comfort food dish made with tender strips of beef, mushrooms, and a savory sour cream sauce. A family favorite!"</p>
+            <a href="recipe-file.html#classic-beef-stroganoff1" class="btn btn-primary" name="classic-beef-stroganoff">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/lemon-garlic-shrimp-pasta.jpg" alt="Card image cap" id="card-top-shrimp-pasta-image" name="lemon-garlic-shrimp-pasta">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield"></i><strong>4.4</strong>  Lemon Garlic Shrimp Pasta</h5>
+            <p class="card-text text-center">"Savor the zesty flavors of our Lemon Garlic Shrimp Pasta, a delightful Italian-inspired dish featuring succulent shrimp, al dente pasta, and a vibrant lemon garlic sauce. A perfect balance of flavors!"</p>
+            <a href="recipe-file.html#lemon-garlic-shrimp-pasta1" class="btn btn-primary" name="lemon-garlic-shrimp-pasta">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/crispy-fried-chicken.jpg" alt="Card image cap" id="card-top-fried-chicken-image" name="fried-chicken">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield"></i><strong>4.3</strong>  Crispy Fried Chicken</h5>
+            <p class="card-text text-center">"Indulge in the mouthwatering flavors of our Crispy Fried Chicken, a classic comfort food dish that boasts perfectly crispy skin and tender, juicy meat. It's a family favorite!"</p>
+            <a href="recipe-file.html#crispy-fried-chicken1" class="btn btn-primary" name="crispy-fried-chicken">Go to Recipe</a>
+        </div>
+    </div>
+
+    
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top card-img-left" src="assets/images/lamb-burger.jpg" alt="Card image cap" id="card-top-lamb-burger-image" name="lamb-burger">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield"></i><strong>4.3</strong>  Lamb Burger</h5>
+            <p class="card-text text-center">"Sink your teeth into the savory goodness of our Lamb Burger, a mouthwatering treat made from seasoned ground lamb, fresh herbs, and served in a warm bun with your favorite toppings. A burger like no other!"</p>
+            <a href="recipe-file.html#lamb-burger1" class="btn btn-primary" name="lamb-burger">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top " src="assets/images/green-thai-curry.jpg" alt="Card image cap" id="card-top-thai-curry-image" name="green-thai-curry">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield"></i><strong>4.2</strong>  Green Thai Curry</h5>
+            <p class="card-text text-center">"Experience the vibrant flavors of our Green Thai Curry, a delightful Thai dish made with a fragrant green curry paste, coconut milk, and a medley of fresh vegetables and tofu. A taste of Thailand in every bite!"</p>
+            <a href="recipe-file.html#green-thai-curry1" class="btn btn-primary" name="green-thai-curry">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/chicken-alfredo-pasta.jpg" alt="Card image cap" id="card-top-alfredo-image" name="chicken-alfredo-pasta">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield"></i><strong>4.1</strong>  Chicken Alfredo Pasta</h5>
+            <p class="card-text text-center">"Savor the creamy goodness of our Chicken Alfredo Pasta, a classic Italian dish featuring tender chicken, fettuccine pasta, and a rich Alfredo sauce. It's comfort food at its finest!"</p>
+            <a href="recipe-file.html#chicken-alfredo-pasta1" class="btn btn-primary" name="chicken-alfredo-pasta">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/homemade-margerita-pizza.jpeg" alt="Card image cap" id="card-top-pizza-image" name="margherita-pizza">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield"></i><strong>4.0</strong>  Homemade Margherita Pizza</h5>
+            <p class="card-text text-center">"Try making our Homemade Margherita Pizza, a simple and delicious dish that's perfect for amateur cooks. This classic pizza features fresh tomatoes, mozzarella, basil, and a crispy crust."</p>
+            <a href="recipe-file.html#homemade-margherita-pizza1" class="btn btn-primary" name="homemade-margerita-pizza">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top card-img-left" src="assets/images/chocolate-chip-cookies.jpg" alt="Card image cap" id="card-top-cookie-image" name="chocolate-chip-cookies">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-halved"></i> <strong>3.8</strong> Chocolate Chip Cookies</h5>
+            <p class="card-text text-center">"Indulge in the sweet delight of our Chocolate Chip Cookies, featuring gooey chocolate chips, brown sugar, and a hint of vanilla. These cookies are a classic favorite for all ages!"</p>
+            <a href="recipe-file.html#chocolate-chip-cookies1" class="btn btn-primary" name="chocolate-chip-cookies">Go to Recipe</a>
+        </div>
+    </div>
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/sweet-and-sour-chicken.jpg" alt="Card image cap" id="card-top-sweet-sour-chicken-image" name="sweet-and-sour-chicken">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-halved"></i> <strong>3.5 </strong> Sweet and Sour Chicken</h5>
+            <p class="card-text text-center">"Enjoy the perfect balance of flavors in our Sweet and Sour Chicken, a classic Chinese dish with crispy chicken chunks, colorful bell peppers, and a tangy sweet and sour sauce. It's a family favorite!"</p>
+            <a href="recipe-file.html#sweet-and-sour-chicken1" class="btn btn-primary" name="sweet-and-sour-chicken">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4 dish-of-the-day-card-color">
+        <img class="card-img-top" src="assets/images/vegetarian-sushi.jpg" alt="Card image cap" id="card-top-sushi-image" name="vegetarian-sushi">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-halved"></i><strong>3.2</strong>   Vegetarian Sushi</h5>
+            <p class="lead text-center" >"Dish of the Day " </p>
+            <p class="card-text text-center">"Taste the freshness in the delightful flavors of our Vegetarian Sushi, a Japanese dish made with vinegared rice, fresh vegetables, and nori seaweed. A perfect choice for vegetarians and sushi lovers."</p>
+            <a href="recipe-file.html#vegetarian-sushi1" class="btn btn-primary" name="vegetarian-sushi">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4 dish-of-the-month-card-color">
+        <img class="card-img-top" src="assets/images/spaghetti-bolognese.jpg" alt="Card image cap" id="card-top-bolognese-image" name="spaghetti-bolognese">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-halved"></i> <strong>3.1</strong>   Spaghetti Bolognese</h5>
+            <p class="lead text-center" >"Dish of the Month " </p>
+            <p class="card-text text-center">"Be swept away in the rich flavors of our Spaghetti Bolognese, a classic Italian pasta dish made with a hearty meat sauce, tomatoes, and a medley of aromatic herbs and spices."</p>
+            <a href="recipe-file.html#spaghetti-bolognese1" class="btn btn-primary" name="spaghetti-bolognese">Go to Recipe</a>
+        </div>
+    </div>
+
+    <div class="card  g-0 col-12 col-md-6 col-lg-4 dish-of-the-year-card-color" >
+        <img class="card-img-top  card-img-left" src="assets/images/spaghetti-carbonara-recipe-6.jpg" alt="Card image cap" id="card-top-carbonara-image" name="spaghetti-carbonara">
+        <div class="card-body">
+          <h5 class="card-title text-center"><i class="fa-solid fa-shield-halved"></i> <strong>3.0</strong>  Spaghetti Cabonara </h5>
+          <p class="lead text-center " > "Dish of the Year" </p>
+          <p class="card-text text-center">"Indulge in the creamy delight of our classic Carbonara recipe, a timeless Italian pasta dish that combines al dente spaghetti with a luscious sauce of eggs, cheese, pancetta, and freshly cracked black pepper."</p>
+          <a href="recipe-file.html#spaghetti-carbonara1" class="btn btn-primary" name="spaghetti-carbonara">Go to Recipe </a>
+        </div>
+    </div>
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top card-img-left" src="assets/images/quick-meal.jpg" alt="Card image cap" id="card-top-meal-image" name="quick-meal">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-shield-halved"></i><strong>3.0</strong> Speedy Chicken Stir-Fry</h5>
+            <p class="card-text text-center">"Try our Speedy Chicken Stir-Fry, a delicious dish perfect for busy days. This quick and easy meal is a delightful combination of flavors and can be prepared in just 20 minutes."</p>
+            <a href="recipe-file.html#speedy-chicken-stir-fry1" class="btn btn-primary" name="speedy-chicken-stir-fry">Go to Recipe</a>
+        </div>
+    </div>
+
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top card-img-left" src="assets/images/macaroni-and-cheese.jpg" alt="Card image cap" id="card-top-mac-and-cheese-image" name="macaroni-and-cheese">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-egg"></i><strong>2.3</strong>  Macaroni and Cheese</h5>
+            <p class="card-text text-center">"Get ready for comfort food at its finest with our Macaroni and Cheese recipe. Creamy, cheesy, and oh-so-delicious, it's a classic favorite for kids and adults alike."</p>
+            <a href="recipe-file.html#macaroni-and-cheese1" class="btn btn-primary" name="macaroni-and-cheese">Go to Recipe</a>
+        </div>
+    </div>
+
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/mini-pizza-bagels.jpg" alt="Card image cap" id="card-top-pizza-bagels-image" name="mini-pizza-bagels">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-egg"></i><strong>2.0</strong>  Mini Pizza Bagels</h5>
+            <p class="card-text text-center">"Kids will love these Mini Pizza Bagels! They're a quick and tasty snack or lunch idea that's easy to make with simple ingredients. Customize with your favorite toppings."</p>
+            <a href="recipe-file.html#mini-pizza-bagels1" class="btn btn-primary" name="mini-pizza-bagels">Go to Recipe</a>
+        </div>
+    </div>
+
+
+    <div class="card col-12 col-md-6 col-lg-4">
+        <img class="card-img-top" src="assets/images/caesar-salad.jpg" alt="Card image cap" id="card-top-caesar-salad-image" name="caesar-salad">
+        <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-regular fa-handshake"></i><strong>1.2</strong> Caesar Salad</h5>
+            <p class="card-text text-center">"Enjoy the classic flavors of our Caesar Salad, featuring crisp romaine lettuce, croutons, Parmesan cheese, and a creamy Caesar dressing. It's a timeless salad that's both simple and delicious!"</p>
+            <a href="recipe-file.html#caesar-salad1" class="btn btn-primary" name="caesar-salad">Go to Recipe</a>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/11665d5c0d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </html> 
+  
+
+
+
+
+
